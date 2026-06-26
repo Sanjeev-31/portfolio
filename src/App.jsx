@@ -80,6 +80,11 @@ export default function App() {
         <span>Frontend Engineer</span>
         <span>UI Developer</span>
       </div>
+      <div className="resume-btn">
+             <a href="/sanjeev-resume.pdf" target="_blank" rel="noopener noreferrer">
+                 <button>View Resume</button>
+             </a>
+      </div>
 
     </div>
 

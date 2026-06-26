@@ -563,3 +563,27 @@ h3{
     padding-top:150px;
   }
 }
+.resume-btn {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.resume-btn button {
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.resume-btn button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  background: linear-gradient(135deg, #06b6d4, #4f46e5);
+}
