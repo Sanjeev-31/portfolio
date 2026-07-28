@@ -6,7 +6,7 @@ import { FaEnvelope, FaPhone, FaGithub, FaLinkedin } from "react-icons/fa";
 export default function App() {
   const [active, setActive] = useState("about");
   const [selectedProject, setSelectedProject] = useState(null);
-  const [selectedCert, setSelectedCert] = useState(null); // ✅ FIXED (MOVED HERE)
+  const [selectedCert, setSelectedCert] = useState(null);
 
   const projects = [
     {
